@@ -10,6 +10,7 @@ namespace KellysClassProject
     {
         static void Main(string[] args)
         {
+            var coach = new Coach 
         }
     }
 }
