@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ namespace KellysClassProject
         /// <summary>
         /// Name of the coach
         /// </summary>
+        [Key]
+        public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         /// <summary>
@@ -25,11 +28,12 @@ namespace KellysClassProject
         #endregion
 
         #region Methods
-        public void Match Coach to Team
-            {
+        ///public void Match Coach to Team/
+        ///
+            
             }
             
                     #endregion
 
     }
-}
+
