@@ -10,7 +10,7 @@ namespace KellysClassProject
     /// <summary>
     /// Definition of a coach
     /// </summary>
-    class Coach
+    public class Coach
     {
         #region Properties
         /// <summary>

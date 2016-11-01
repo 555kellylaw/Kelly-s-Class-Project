@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace KellysClassProject
 {
-    static class Stadium
+    public static class Stadium
     {
+        private static object coach;
         #region Properties
-        public static string Name { get; set; }
-        public static string Location { get; set; }
+        public static string FirstName { get; set; }
+        public static string LastName { get; set; }
+        public static string Sport { get; set; }
         ///<summary>
         ///Collection of coaches
         ///</summary>
-        
-        public static List<Coach> Coaches { get; set; }
+
+        public static List<Coach>Coaches { get; set; }
         #endregion
 
         #region Constructors
@@ -31,18 +33,23 @@ namespace KellysClassProject
             using (var model = new StadiumModel())
             {
                 model.Coaches.Add(coach);
+                model.SaveChanges();
             }
-                
+
         }
         public static void PrintCoaches()
         {
-            foreach (var coach in Coaches)
+            using (var model = new StadiumModel())
             {
-                Console.WriteLine("First Name: {0}, Last Name: {1}, Sport: {3}",
-                    coach.FirstName, coach.LastName, coach.Sport);
+                foreach (var coach in model.Coaches)
+                {
+                    Console.WriteLine("First Name: {0}, Last Name: {1}, Sport: {3}",
+                        coach.FirstName, coach.LastName, coach.Sport);
 
+                }
             }
+            #endregion
         }
-        #endregion
     }
 }
+
