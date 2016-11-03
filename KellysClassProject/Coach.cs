@@ -30,10 +30,10 @@ namespace KellysClassProject
         #region Methods
         ///public void Match Coach to Team/
         ///
-            
-            }
-            
-                    #endregion
-
+        #endregion
     }
+
+
+
+}
 

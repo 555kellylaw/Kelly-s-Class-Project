@@ -10,19 +10,17 @@ namespace KellysClassProject
     {
         static void Main(string[] args)
         {
-         //   var coach = new Coach ();
-            Coach.ID = 001;
-            Coach.LastName = "Habelow";
-            Coach.FirstName = "Eileen";
-            Coach.Sport = "Field Hockey";
+            var coach = new coach();
+            coach.ID = 001;
+            coach.LastName = "Habelow";
+            coach.FirstName = "Eileen";
+            coach.Sport = "Field Hockey";
 
             Stadium.AddCoach(coach);
 
             Stadium.PrintCoaches();
 
-            
-
-
+           
             Stadium.PrintCoaches();
         }
     }
