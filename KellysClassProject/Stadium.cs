@@ -13,19 +13,10 @@ namespace KellysClassProject
         public static string FirstName { get; set; }
         public static string LastName { get; set; }
         public static string Sport { get; set; }
-        ///<summary>
-        ///Collection of coaches
-        ///</summary>
 
-        public static List<Coach>Coaches { get; set; }
         #endregion
 
-        #region Constructors
-        static Stadium()
-        {
-            Coaches = new List<Coach>();
-        }
-        #endregion
+       
 
         #region Methods
         public static void AddCoach(Coach coach)
@@ -43,13 +34,14 @@ namespace KellysClassProject
             {
                 foreach (var coach in model.Coaches)
                 {
-                    Console.WriteLine("First Name: {0}, Last Name: {1}, Sport: {3}",
+                    Console.WriteLine("First Name: {0}, Last Name: {1}, Sport: {2}",
                         coach.FirstName, coach.LastName, coach.Sport);
 
                 }
             }
-            #endregion
+           
         }
+        #endregion
     }
 }
 
