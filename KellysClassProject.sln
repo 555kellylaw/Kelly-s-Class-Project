@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KellysClassProject", "KellysClassProject\KellysClassProject.csproj", "{933D3A76-029B-45A7-A93F-4F0D7B4C665E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StadiumUI", "StadiumUI\StadiumUI.csproj", "{72CE0B5D-500E-46FB-A62B-D0AF80E87DAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{933D3A76-029B-45A7-A93F-4F0D7B4C665E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933D3A76-029B-45A7-A93F-4F0D7B4C665E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933D3A76-029B-45A7-A93F-4F0D7B4C665E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CE0B5D-500E-46FB-A62B-D0AF80E87DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CE0B5D-500E-46FB-A62B-D0AF80E87DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CE0B5D-500E-46FB-A62B-D0AF80E87DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CE0B5D-500E-46FB-A62B-D0AF80E87DAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
