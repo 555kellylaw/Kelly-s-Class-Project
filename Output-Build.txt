@@ -1,0 +1,6 @@
+﻿1>------ Build started: Project: KellysClassProject, Configuration: Debug Any CPU ------
+1>C:\Users\lawlk011\Documents\GitHub\KellysClassProject\KellysClassProject\Stadium.cs(11,31,11,36): warning CS0169: The field 'Stadium.coach' is never used
+1>  KellysClassProject -> C:\Users\lawlk011\Documents\GitHub\KellysClassProject\KellysClassProject\bin\Debug\KellysClassProject.dll
+2>------ Build started: Project: StadiumUI, Configuration: Debug Any CPU ------
+2>  StadiumUI -> C:\Users\lawlk011\Documents\GitHub\KellysClassProject\StadiumUI\bin\StadiumUI.dll
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

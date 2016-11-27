@@ -14,8 +14,9 @@ namespace KellysClassProject
         public class Sport
     {
         #region Properties
+       
         [Key]
-        public int ID { get; set; }
+       
         public string sport { get; set; }
 
         #endregion
